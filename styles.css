@@ -1,50 +1,82 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #111;  /* Dark background */
+    color: #fff;  /* White text for high contrast */
 }
 
 header {
-    background-color: #333;
+    background: linear-gradient(135deg, #ff8a00, #e52e71); /* Vibrant gradient */
     color: white;
-    padding: 1em 0;
+    padding: 2em 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0;
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff8a00; /* Accent color on hover */
 }
 
 section {
-    padding: 20px;
-    margin: 10px 0;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 20px 5%;
+    background-color: #222; /* Slightly lighter background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+section h2 {
+    color: #ff8a00; /* Use accent color for headers */
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
+    padding: 20px;
+    background: linear-gradient(135deg, #e52e71, #ff8a00); /* Vibrant gradient footer */
     color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: 0.9em;
+}
+
+a {
+    color: #e52e71; /* Accent color for links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff8a00; /* Different accent color on hover */
 }
