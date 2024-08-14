@@ -2,12 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;  /* Solid black background */
-    color: #fff;  /* White text for contrast */
+    background-color: #111;  /* Dark background */
+    color: #fff;  /* White text for high contrast */
 }
 
 header {
-    background: linear-gradient(135deg, #000, #4B0082); /* Fade from black to deep purple */
+    background: linear-gradient(135deg, #ff8a00, #e52e71); /* Vibrant gradient */
     color: white;
     padding: 2em 0;
     text-align: center;
@@ -42,20 +42,20 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #9400D3; /* Bright purple on hover */
+    color: #ff8a00; /* Accent color on hover */
 }
 
 section {
     padding: 40px;
     margin: 20px 5%;
-    background-color: #111; /* Very dark gray background */
+    background-color: #222; /* Slightly lighter background */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
 section h2 {
-    color: #8A2BE2; /* Lighter purple for headers */
+    color: #ff8a00; /* Use accent color for headers */
     font-size: 2em;
     margin-bottom: 20px;
 }
@@ -63,7 +63,7 @@ section h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(135deg, #4B0082, #000); /* Fade from deep purple to black */
+    background: linear-gradient(135deg, #e52e71, #ff8a00); /* Vibrant gradient footer */
     color: white;
     position: fixed;
     bottom: 0;
@@ -72,11 +72,11 @@ footer {
 }
 
 a {
-    color: #9400D3; /* Bright purple for links */
+    color: #e52e71; /* Accent color for links */
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #8A2BE2; /* Lighter purple on hover */
+    color: #ff8a00; /* Different accent color on hover */
 }
